@@ -1,4 +1,5 @@
 #Design Pattern used is Python Behave Page Object model.
+Test project based on this Test file Software Test Engineer Test project.pdf (Pls see attached for ref)
 
 Selenium webdriver , python , behave  
 install latest Python or above 3.4.2 and all libraries installed with the pip
