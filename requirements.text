@@ -1,0 +1,7 @@
+behave
+selenium
+colorama==0.3.3
+openpyxl==2.2.4
+pillow==2.9.0
+pyyaml==3.11
+junit2html
