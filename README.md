@@ -1,4 +1,4 @@
-#Design Pattern i used is Python Behave Page Object model.
+#Design Pattern used is Python Behave Page Object model.
 
 Selenium webdriver , python , behave  
 install latest Python or above 3.4.2 and all libraries installed with the pip
@@ -16,4 +16,4 @@ install latest Python or above 3.4.2 and all libraries installed with the pip
 1. Run junit2html TESTS-Login.xml testreport.html [junit xml must be ready to generate html]
 
 #Alternatively, To render test summary of results in command line.[need junit xml report to proceed]
-1.Run junit2html TESTS-Login.xml --summary-matrix
+1. Run junit2html TESTS-Login.xml --summary-matrix
