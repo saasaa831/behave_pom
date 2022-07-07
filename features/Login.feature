@@ -1,4 +1,4 @@
-Feature: Login to portal
+Feature: Login to todolist webportal
 
     Scenario: Login to todolist app, create 10 random strings and logout
         When I open todolist app
