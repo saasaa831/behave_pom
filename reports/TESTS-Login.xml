@@ -1,0 +1,36 @@
+<testsuite errors="0" failures="0" name="Login.Login to portal" skipped="0" tests="2" time="21.489"><testcase classname="Login.Login to portal" name="Login to todolist app, create 10 random strings and logout" status="passed" time="7.62"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Login to todolist app, create 10 random strings and logout
+    When I open todolist app ... passed in 0.760s
+    And I login with username "seltest@gmail.com" and password "Test@123" ... passed in 6.066s
+    And I create 10 to do list with random strings ... passed in 0.754s
+    Then I verify that I successfully logged out ... passed in 0.040s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+CDwindow-627F1CF29C90B2ADF5B41046E4C47828
+CDwindow-0DA16301608FAA091065462AE7D2A63F
+
+]]>
+</system-out></testcase><testcase classname="Login.Login to portal" name="Login to todolist app, delete those 10 random strings and logout" status="passed" time="13.869"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Login to todolist app, delete those 10 random strings and logout
+    When I open todolist app ... passed in 0.843s
+    And I login with username "seltest@gmail.com" and password "Test@123" ... passed in 5.802s
+    And I listed created to-do lists ... passed in 0.000s
+    And I try delete the list from 5 - 10 ... passed in 7.143s
+    Then I verify that I successfully logged out ... passed in 0.081s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+CDwindow-DDAB26C275BC91A5105654828071D477
+CDwindow-DCB9E5B1C23A9DA779A5E78D72FA4AD7
+
+]]>
+</system-out></testcase></testsuite>
