@@ -4,7 +4,7 @@
 Selenium webdriver , python , behave  
 install latest Python or above 3.4.2 and all libraries installed with the pip
 
-# Instructions below to run the code and attached sample reports to check  [./reports]
+# Instructions below to run the code and attached sample results to check  [./reports]
 1. git clone or download the zip.
 3. Install Python 2.7 or higher.
 4. Install behave and other libs from requirements.text
